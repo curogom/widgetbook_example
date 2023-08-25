@@ -1,0 +1,15 @@
+name: widgetbook_example
+description: I/O Extended Songdo Flutter Widgetbook Example Project
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  widgetbook: ^3.2.0
+
+flutter:
+  uses-material-design: true
