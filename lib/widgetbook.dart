@@ -27,13 +27,13 @@ class WidgetbookApp extends StatelessWidget {
       ],
       directories: [
         WidgetbookComponent(
-          name: '$Buttons',
+          name: 'Buttons',
           useCases: [
             WidgetbookUseCase(name: 'Default', builder: (context) => const Buttons()),
           ]
         ),
         WidgetbookComponent(
-            name: '$Dialogs',
+            name: 'Dialogs',
             useCases: [
               WidgetbookUseCase(name: 'Default', builder: (context) => const Dialogs()),
             ]

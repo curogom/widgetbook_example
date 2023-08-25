@@ -18,7 +18,7 @@ class Dialogs extends StatelessWidget {
     final action2 = context.knobs.string(label: 'Action1 Text', initialValue: 'Yes');
 
     return Scaffold(
-      appBar: AppBar(title: Text('Buttons')),
+      appBar: AppBar(title: Text('Dialogs')),
       body: Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,
